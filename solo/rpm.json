@@ -1,4 +1,7 @@
 {
   "run_list": [ "recipe[tuleap::base]",
-               	"recipe[tuleap::rpm_deployment]" ]
+               	"recipe[tuleap::rpm_deployment]" ],
+  "tuleap": {
+      "domain_name": "tuleap.local"
+  }
 }
